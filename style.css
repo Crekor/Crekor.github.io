@@ -1,0 +1,1065 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+.montser {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.montser-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.roboto-slab-ligh {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.roboto-slab-bold {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.Home {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 95rem;
+  background: url(../img/fonts.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 2rem;
+  color: #fff;
+}
+.Home_logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.3rem;
+  margin-left: -10rem;
+}
+.Home ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Home ul li {
+  display: inline-block;
+  padding-top: 2rem;
+  font-size: 1.8rem;
+  margin-left: 4rem;
+}
+.Home ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.Home_title {
+  width: 100%;
+  height: 30rem;
+  text-align: center;
+  margin-top: 30rem;
+}
+.Home_title h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.Home_title p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin-top: -3rem;
+}
+.Home_title a {
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 1.5rem 5rem;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-decoration: none;
+  margin-top: 2rem;
+  opacity: .8;
+}
+.Home_title a:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.services {
+  position: relative;
+  display: block;
+  height: 60rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+.services h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 5em;
+  text-transform: uppercase;
+}
+.services h6 {
+  border-bottom: 1px solid #000;
+  width: 5rem;
+  margin: 3rem auto;
+}
+.services p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.services-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.services-info_box {
+  display: block;
+}
+.services_beg {
+  display: inline-block;
+}
+.services_beg h5 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.services_beg p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.services_box {
+  display: inline-block;
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #aeaeae;
+  margin-top: 5rem;
+}
+.services_box:hover {
+  background-color: #c0301c;
+}
+.services_box:hover h4:hover {
+  color: #fff;
+}
+.services_box h4 {
+  padding-top: 0.5rem;
+  font-family: 'Droid Serif', serif;
+  color: #c0301c;
+  font-size: 6rem;
+  margin-top: 0;
+}
+.about {
+  position: relative;
+  display: block;
+  height: 90rem;
+  width: 100%;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.about h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 5em;
+  text-transform: uppercase;
+}
+.about h6 {
+  border-bottom: 1px solid #000;
+  width: 5rem;
+  margin: 3rem auto;
+}
+.about h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.about_flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 8rem;
+  height: 20rem;
+}
+.about_flex .textLeft {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-right: 2rem;
+}
+.about_flex .textRight {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+.slider {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  margin-top: 0;
+}
+.slider::-moz-selection {
+  background: transparent;
+  color: #fff;
+  text-shadow: none;
+}
+.slider::selection {
+  background: transparent;
+  color: #fff;
+  text-shadow: none;
+}
+.slider .slide-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.slider .slide-wrap {
+  position: relative;
+  left: 0px;
+  top: 0;
+  width: 10000000px;
+}
+.slider .slide-item {
+  width: 290px;
+  padding: 10px;
+  float: left;
+}
+.slider .slide-item p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.slider .slide-item .descr {
+  position: absolute;
+  width: 26.3rem;
+  height: 25rem;
+  opacity: 0;
+  margin-left: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 20rem;
+  color: #fff;
+  display: block;
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+}
+.slider .slide-item .descr a {
+  display: inline-block;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.slider .slide-item .descr a:hover {
+  text-decoration: none;
+  background-color: #c0301c;
+}
+.slider .slide-item .item_box:hover .descr {
+  opacity: 1;
+  cursor: pointer;
+}
+.slider .slide-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-top: 2rem;
+}
+.slider .navy {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+}
+.slider .navy i {
+  position: absolute;
+  font-size: 3rem;
+  margin-top: 0.1rem;
+  margin-left: -0.5rem;
+  color: #dddddd;
+}
+.slider .prev-slide {
+  left: 1.3rem;
+  background: #c0301c url(bg/left-arrow.png) 11px 40% no-repeat;
+  height: 3.5rem;
+  margin-top: 12rem;
+}
+.slider .prev-slide:hover {
+  background-color: rgba(85, 85, 85, 0.2);
+}
+.slider .next-slide {
+  right: 2.4rem;
+  background: #c0301c url(bg/right-arrow.png) 13px 40% no-repeat;
+  height: 3.5rem;
+  margin-top: 12rem;
+}
+.slider .next-slide:hover {
+  background-color: rgba(85, 85, 85, 0.2);
+}
+.slider .navy.disable {
+  background: #dbdbdb;
+}
+.lest {
+  position: relative;
+  display: block;
+  height: 150rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+.lest h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 5em;
+  text-transform: uppercase;
+}
+.lest h6 {
+  border-bottom: 1px solid #000;
+  width: 5rem;
+  margin: 3rem auto;
+}
+.lest .filter li {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 6rem;
+}
+.lest .filter li a {
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333;
+}
+.lest .filter li a:hover {
+  color: red;
+}
+.lest .portfolio-area {
+  padding: 0rem;
+}
+.lest .portfolio-area li {
+  display: inline-block;
+}
+.lest .portfolio-area li img {
+  width: 36rem;
+  height: 32rem;
+  margin: 1rem;
+  background-image: no-repeat center center;
+}
+.lest .portfolio-area li img .guidance {
+  position: absolute;
+  display: block;
+  background-color: rgba(201, 103, 93, 0.5);
+}
+.lest .portfolio-area li span.guidance {
+  margin: 1rem;
+  width: 36rem;
+  height: 32rem;
+  position: absolute;
+  display: block;
+  background: rgba(201, 103, 93, 0.7);
+  color: #fff;
+  -webkit-transition: all .4s;
+          transition: all .4s;
+  opacity: 0;
+}
+.lest .portfolio-area li span.guidance h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: none;
+}
+.lest .portfolio-area li span.guidance p {
+  font-size: 1.3rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.lest .portfolio-area li span.guidance a {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #c9675d;
+  position: absolute;
+  width: 8rem;
+  padding-top: 0.8rem;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 4rem;
+  background-color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.lest .portfolio-area li span.guidance a:hover {
+  color: #fff;
+  background-color: #c9675d;
+}
+.lest .portfolio-area li span.guidance a i {
+  font-size: 2rem;
+}
+.lest .portfolio-area li span.guidance:hover {
+  opacity: 1;
+}
+.our-work {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 43.8rem;
+  background: url(../img/Kofe.jpg) no-repeat 100% 73.5%;
+  background-size: cover;
+  z-index: 1;
+  color: #fff;
+}
+.our-work h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-top: 11rem;
+  font-size: 3.5rem;
+  margin-bottom: 7rem;
+}
+.our-work a {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: #c0301c;
+  background-color: #fff;
+  width: 19rem;
+  font-size: 2rem;
+  height: 5rem;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+}
+.our-work a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #c0301c;
+}
+.Recent {
+  position: relative;
+  display: block;
+  height: 120rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+.Recent h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 5em;
+  text-transform: uppercase;
+}
+.Recent h6 {
+  border-bottom: 2px solid #000;
+  width: 4rem;
+  margin: 3rem auto;
+}
+.Recent h5 {
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.Recent_star {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  margin-top: 5rem;
+  border-bottom: 1px solid #dddddd;
+}
+.Recent_star:hover .Recent_startup h4 {
+  color: #c84a38;
+}
+.Recent_star:hover em {
+  color: #c84a38;
+}
+.Recent_star:hover .Recent_startup span {
+  color: #c84a38;
+}
+.Recent_star .foto {
+  width: 40%;
+  height: 32rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+}
+.Recent_star .foto img {
+  width: 100%;
+  height: 100%;
+}
+.Recent_star .oct {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #555555;
+  display: block;
+  position: absolute;
+}
+.Recent_star .oct h2 {
+  padding-top: .5rem;
+  line-height: .5rem;
+  color: #555555;
+  font-size: 2rem;
+}
+.Recent_star .oct b {
+  color: #555555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.Recent_startup {
+  width: 50%;
+  line-height: 2rem;
+}
+.Recent_startup h4 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  left: 10rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+.Recent_startup h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  left: 10rem;
+  display: block;
+  position: relative;
+}
+.Recent_startup p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 2rem;
+}
+.Recent_startup span {
+  position: relative;
+  display: block;
+  text-align-last: left;
+  font-size: 1.5rem;
+}
+.Recent_finsh {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  margin-top: 50rem;
+}
+.Recent_finsh:hover .Recent_finshup h4 {
+  color: #c84a38;
+}
+.Recent_finsh:hover em {
+  color: #c84a38;
+}
+.Recent_finsh:hover .Recent_finshup span {
+  color: #c84a38;
+}
+.Recent_finsh .foto {
+  width: 40%;
+  height: 32rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+}
+.Recent_finsh .foto img {
+  width: 100%;
+  height: 100%;
+}
+.Recent_finsh .oct {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #555555;
+  display: block;
+  position: absolute;
+}
+.Recent_finsh .oct h2 {
+  padding-top: .5rem;
+  line-height: .5rem;
+  color: #555555;
+  font-size: 2rem;
+}
+.Recent_finsh .oct b {
+  color: #555555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.Recent_finshup {
+  width: 50%;
+  line-height: 2rem;
+}
+.Recent_finshup h4 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  left: 10rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+.Recent_finshup h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  left: 10rem;
+  display: block;
+  position: relative;
+}
+.Recent_finshup p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 2rem;
+}
+.Recent_finshup span {
+  position: relative;
+  display: block;
+  text-align-last: left;
+  font-size: 1.5rem;
+}
+.clients {
+  background-color: #f8f8f8;
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 50rem;
+}
+.clients ul {
+  padding-top: 10rem;
+  margin-bottom: 6rem;
+}
+.clients ul li {
+  width: 15%;
+  text-align: center;
+  display: inline-block;
+  margin-right: 2rem;
+}
+.clients h3 {
+  width: 60%;
+  margin: 4rem auto;
+  font-style: italic;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.clients h4 {
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.clients .slider_nav .point {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  background-color: #c0301c;
+  border: none;
+}
+.clients .slider_nav span {
+  background: #d6d6d6;
+  height: 12px;
+  width: 12px;
+  border: none;
+}
+.contact {
+  padding-top: 5rem;
+  position: relative;
+  display: block;
+  height: 80rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+.contact h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 5em;
+  text-transform: uppercase;
+}
+.contact h6 {
+  border-bottom: 1px solid #000;
+  width: 5rem;
+  margin: 3rem auto;
+}
+.contact h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+.contact_info {
+  width: 100%;
+  height: 55rem;
+  display: block;
+}
+.contact_info ul {
+  width: 15%;
+  display: block;
+  position: absolute;
+  margin: 0;
+}
+.contact_info ul li {
+  display: block;
+  margin-bottom: 4rem;
+}
+.contact_info ul li h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: -3rem;
+}
+.contact_info ul li h4 i {
+  margin-right: 2rem;
+}
+.contact_info ul li p {
+  font-size: 1.4rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  text-align: left;
+}
+.contact_forms {
+  position: relative;
+  display: block;
+  width: 75%;
+  margin-left: 30rem;
+  padding-left: 3rem;
+  padding-top: 4rem;
+}
+.contact .form-icon {
+  display: inline-block;
+  width: 40%;
+  margin: 1rem;
+}
+.contact input {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1.6rem;
+  height: 5rem;
+  padding-left: 2rem;
+  border: 1px solid #333;
+  outline: none;
+  display: inline-block;
+}
+.contact input:focus {
+  border-color: red;
+}
+.contact input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.contact input:focus::-moz-placeholder {
+  color: transparent;
+}
+.contact input:focus:-moz-placeholder {
+  color: transparent;
+}
+.contact input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.contact textarea#input-write {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 206%;
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  margin-left: -18rem;
+  display: block;
+  outline: none;
+  border: 1px solid #333;
+  height: 15rem;
+  resize: none;
+}
+.contact textarea#input-write:focus {
+  border-color: red;
+}
+.contact button.btn {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+  width: 28%;
+  height: 6rem;
+  font-size: 1.6rem;
+  margin-left: 7.5rem;
+  border: 1px solid #333;
+  margin-top: 2rem;
+  background-color: #fff;
+  outline: none;
+}
+.contact button.btn:focus {
+  border: 1px solid red;
+  color: red;
+}
+.connectivity {
+  width: 100%;
+  height: 40rem;
+  background-color: #c0301c;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.connectivity span a {
+  text-decoration: none;
+}
+.connectivity span a .twiter {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-top: 15rem;
+  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.connectivity span a .twiter i {
+  font-size: 2rem;
+  color: #fff;
+  padding-top: .8rem;
+}
+.connectivity span a:hover .twiter {
+  border-color: #333;
+}
+.connectivity span a:hover .twiter i {
+  color: #333;
+}
+.connectivity h6 {
+  border-bottom: 2px solid #fff;
+  width: 6rem;
+  margin: 3rem auto;
+}
+.connectivity h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 1440px) {
+  .Home ul {
+    margin-left: 48rem;
+  }
+  div#Blog {
+    height: 33rem;
+  }
+  .our-work h2 {
+    margin-top: 7rem;
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+  }
+  .Recent_star {
+    width: 70%;
+  }
+  .Recent_startup {
+    width: 55%;
+  }
+  .Recent_finsh {
+    width: 70%;
+  }
+  .Recent_finshup {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Home ul {
+    margin-left: 28rem;
+  }
+  .Home_logo {
+    margin-left: 0rem;
+  }
+  .slider .slide-item {
+    width: 244px;
+    padding: 5px;
+    float: left;
+  }
+  .slider .slide-item .descr {
+    width: 23.3rem;
+  }
+  img.Sulku {
+    width: 23rem;
+    margin-bottom: 2rem;
+  }
+  .slider .prev-slide {
+    left: 0.8rem;
+    margin-top: 10rem;
+  }
+  .slider .next-slide {
+    right: 0;
+    margin-top: 10rem;
+  }
+  .slider .slide-item .descr {
+    height: 22rem;
+    padding-top: 17rem;
+  }
+  .lest {
+    height: 130rem ;
+  }
+  .lest .portfolio-area li img {
+    width: 30rem;
+    height: 28rem;
+    margin: 1rem;
+  }
+  div#Blog {
+    height: 23rem;
+  }
+  .our-work h2 {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+  }
+  .our-work a {
+    width: 17rem;
+    font-size: 1.8rem;
+    height: 4rem;
+    padding-top: 0.7rem;
+  }
+  .Recent_star {
+    width: 85%;
+  }
+  .Recent_finsh {
+    width: 85%;
+  }
+  .contact input {
+    width: 97%;
+    margin-left: -6.5rem;
+  }
+  .contact button.btn {
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Home ul {
+    margin-left: 5rem;
+  }
+  .services {
+    height: 70rem;
+  }
+  .services h3 {
+    margin-top: 3rem;
+  }
+  .services h6 {
+    margin: 2rem auto;
+  }
+  .services_box {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+  }
+  .services_box h4 {
+    padding-top: 0rem;
+    font-size: 4.2rem;
+    margin-top: 0;
+  }
+  .services_beg h5 {
+    padding-left: 20rem;
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  .about {
+    height: 70rem;
+  }
+  .about h3 {
+    margin-top: 3rem;
+  }
+  .about_flex {
+    margin-top: 4rem;
+  }
+  .slider .slide-item {
+    width: 188px;
+  }
+  .slider .slide-item .descr {
+    height: 17rem;
+    width: 18rem;
+    padding-top: 12rem;
+  }
+  .slider .slide-item .descr a {
+    width: 2rem;
+    height: 2rem;
+  }
+  .slider .prev-slide {
+    left: 0.7rem;
+    margin-top: 7rem;
+  }
+  .slider .next-slide {
+    margin-top: 7rem;
+  }
+  .lest {
+    height: 180rem;
+  }
+  .lest h3 {
+    margin-top: 3rem;
+  }
+  .lest h6 {
+    margin: 2rem auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Home ul {
+    margin-left: 5rem;
+  }
+}
